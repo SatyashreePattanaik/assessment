@@ -1,10 +1,10 @@
 #! /bin/bash
 #
-v="aeiou"
+v="aeiouAEIOU"
 echo "Enter characters"
-read a
+read char
 
-if [ $a == $v ];
+if [ $char == $v ];
 then
 	echo "entered character is a vowel"
 else
